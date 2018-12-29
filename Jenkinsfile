@@ -4,7 +4,7 @@ pipeline {
     }
   agent any
   stages {
-// Building your Test Images
+// Building Your Test Images
     stage('BUILD') {
       parallel {
         stage('Express Image') {
